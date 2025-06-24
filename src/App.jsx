@@ -12,17 +12,23 @@ function App() {
       <Header />
       <Portada />
       <ScrollVelocity
-        texts={["Mejora el Barrio - Aporta tus ideas -"]}
+        texts={[
+          "Mejora el Barrio - Aporta tus ideas - Mejora el Barrio - Aporta tus ideas - Mejora el Barrio - Aporta tus ideas - Mejora el Barrio - Aporta tus ideas -",
+        ]}
         className="custom-scroll-text bg-[#8FD8FF] py-6"
       />
       <Participa />
       <ScrollVelocity
-        texts={["Fem Festa - Fem Barri -"]}
+        texts={[
+          "Fem Festa - Fem Barri - Fem Festa - Fem Barri - Fem Festa - Fem Barri - Fem Festa - Fem Barri - Fem Festa - Fem Barri - Fem Festa - Fem Barri -",
+        ]}
         className="custom-scroll-text bg-[#FFCD7B] py-6"
       />
       <Fiesta />
       <ScrollVelocity
-        texts={["Tu opinión es lo que más importa -"]}
+        texts={[
+          "Tu opinión es lo que más importa - Tu opinión es lo que más importa - Tu opinión es lo que más importa - Tu opinión es lo que más importa -",
+        ]}
         className="custom-scroll-text bg-[#89E291] py-6"
       />
       <Comenta />

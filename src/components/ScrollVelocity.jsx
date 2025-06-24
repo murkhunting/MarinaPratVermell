@@ -128,7 +128,7 @@ export const ScrollVelocity = ({
   }
 
   return (
-    <section>
+    <section className="overflow-hidden">
       {texts.map((text, index) => (
         <VelocityText
           key={index}
