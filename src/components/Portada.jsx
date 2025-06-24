@@ -56,11 +56,11 @@ const Portada = () => {
   return (
     <section
       id="inicio"
-      className="flex flex-col justify-center items-center text-white w-[100vw] h-[100vh] relative overflow-hidden"
+      className="flex flex-col justify-center items-center text-white h-screen relative overflow-hidden"
     >
       {/* Elementos de fondo */}
       <img
-        className={`absolute brightness-[0.5] top-0 object-cover w-[100vw] h-[100vh] z-0 transition-opacity duration-500 ${
+        className={`absolute brightness-[0.5] top-0 object-cover w-screen h-screen z-0 transition-opacity duration-500 ${
           activeVideo ? "opacity-0" : "opacity-100"
         }`}
         src="https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg"
@@ -71,7 +71,7 @@ const Portada = () => {
         muted
         loop
         playsInline
-        className={`absolute top-0 left-0 w-full h-full object-cover z-10 transition-opacity duration-500 ${
+        className={`absolute top-0 left-0 w-screen h-screen object-cover z-10 transition-opacity duration-500 ${
           activeVideo === "festa" ? "flex" : "hidden"
         }`}
       >
@@ -82,7 +82,7 @@ const Portada = () => {
         muted
         loop
         playsInline
-        className={`absolute top-0 left-0 w-full h-full object-cover z-10 transition-opacity duration-500 ${
+        className={`absolute top-0 left-0 w-screen h-screen object-cover z-10 transition-opacity duration-500 ${
           activeVideo === "barri" ? "flex" : "hidden"
         }`}
       >
