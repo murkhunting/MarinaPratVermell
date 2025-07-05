@@ -10,7 +10,7 @@ const Fiesta = () => {
           eso te necesitamos <b>Tus ideas</b>.
         </h2>
       </div>
-      <div className="flex flex-col justify-start items-center w-screen p-16 bg-[#FFA7A7]">
+      <div className="flex flex-col justify-start items-center w-screen p-16 bg-[url(assets/carton.avif)]">
         <h2 className=" text-black text-6xl text-center mb-8">
           GANADORES CONCURSO 2024
         </h2>

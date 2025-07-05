@@ -90,40 +90,40 @@ const Portada = () => {
       </video>
 
       {/* Contenido principal */}
-      <img
-        className={`w-[650px] mb-[50px] z-20 shadow-xs mt-[-100px] transition-opacity duration-500 ${
+      <h1
+        className={`text-[#ddefe6] mt-[-140px] mb-[30px] z-20 text-[80px] oswald transition-opacity duration-500 ${
           activeVideo ? "opacity-10" : "opacity-100"
         }`}
-        src="/assets/MarinaPratVermell.png"
-        alt="Logo completo"
-      />
+      >
+        LA MARINA DEL PRAT VERMELL
+      </h1>
 
       <div className="flex flex-row z-20 w-screen">
         <div
-          className="w-[50%] flex flex-col justify-center items-center font-limelight text-8xl text-black con-outline"
+          className="w-[50%] flex flex-col justify-center items-center  con-outline"
           onMouseEnter={() => handleHover("festa")}
           onMouseLeave={handleHoverEnd}
         >
-          <img
-            className={`h-[90px] mb-[50px] z-20 cursor-pointer transition-opacity duration-500 ${
+          <h2
+            className={`text-[#ddefe6] ml-8 z-20 text-[130px] oswald cursor-pointer transition-opacity duration-500 ${
               activeVideo === "barri" ? "opacity-10" : "opacity-100"
             }`}
-            src="/assets/festa1.png"
-            alt="Fem Festa"
-          />
+          >
+            FEM FESTA!
+          </h2>
         </div>
         <div
-          className="w-[50%] flex flex-col justify-center items-center font-limelight text-8xl text-black con-outline"
+          className="w-[50%] flex flex-col justify-center items-center font-limelight  con-outline"
           onMouseEnter={() => handleHover("barri")}
           onMouseLeave={handleHoverEnd}
         >
-          <img
-            className={`h-[90px] mb-[50px] z-20 cursor-pointer transition-opacity duration-500 ${
+          <h2
+            className={`text-[#ddefe6] mr-8 z-20 text-[130px] oswald cursor-pointer transition-opacity duration-500 ${
               activeVideo === "festa" ? "opacity-10" : "opacity-100"
             }`}
-            src="/assets/Barri1.png"
-            alt="Fem Barri"
-          />
+          >
+            FEM BARRI!
+          </h2>
         </div>
       </div>
     </section>

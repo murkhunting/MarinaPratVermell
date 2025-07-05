@@ -25,7 +25,7 @@ const Carousel = () => {
       {/* Left arrow */}
       <button
         onClick={prev}
-        className="absolute top-1/2 left-4 -translate-y-1/2 bg-transparent text-white hover:scale-110 transition-transform duration-200"
+        className="absolute cursor-pointer top-1/2 left-4 -translate-y-1/2 bg-transparent text-white hover:scale-110 transition-transform duration-200"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const Carousel = () => {
       {/* Right arrow */}
       <button
         onClick={next}
-        className="absolute top-1/2 right-4 -translate-y-1/2 bg-transparent text-white hover:scale-110 transition-transform duration-200"
+        className="absolute cursor-pointer top-1/2 right-4 -translate-y-1/2 bg-transparent text-white hover:scale-110 transition-transform duration-200"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

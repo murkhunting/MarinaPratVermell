@@ -11,19 +11,19 @@ const Header = () => {
         </a>
       </div>
       <nav className="hidden md:flex">
-        <ul className="flex space-x-2 text-[14px] font-poppins">
+        <ul className="flex space-x-2 text-[18px] text-[#ddefe6] oswald">
           <a href="#participa">
-            <li className="w-[130px] flex justify-center items-center py-[5px] bg-[#8FD8FF] border-4 border-white hover:bg-[#FFA7A7] transition-transform duration-300 hover:rotate-2">
+            <li className="w-[130px] flex justify-center items-center py-[6px] bg-[#027a76] border-3 border-[#ddefe6] hover:bg-[#e75a59] transition-transform duration-300 hover:rotate-2">
               ¡PARTICIPA!
             </li>
           </a>
           <a href="#fiesta">
-            <li className="w-[130px] flex justify-center items-center py-[5px] bg-[#FFCD7B] border-4 border-white hover:bg-[#FFA7A7] transition-transform duration-300 hover:rotate-2">
+            <li className="w-[130px] flex justify-center items-center py-[6px] bg-[#027a76] border-3 border-[#ddefe6] hover:bg-[#e75a59] transition-transform duration-300 hover:rotate-2">
               FIESTA MAYOR
             </li>
           </a>
           <a href="#comenta">
-            <li className="w-[130px] flex justify-center items-center py-[5px] bg-[#89E291] border-4 border-white hover:bg-[#FFA7A7] transition-transform duration-300 hover:rotate-2">
+            <li className="w-[130px] flex justify-center items-center py-[6px] bg-[#027a76] border-3 border-[#ddefe6] hover:bg-[#e75a59] transition-transform duration-300 hover:rotate-2">
               ¡COMENTA!
             </li>
           </a>
