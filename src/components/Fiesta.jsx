@@ -15,24 +15,35 @@ const Fiesta = () => {
           Las Fiestas nos unen. Tu eres el protagonista.
         </h3>
         <div className="bg-[#ddefe6] flex flex-row w-full h-[80vh]">
-          <div className="w-1/2 rojo"></div>
-          <div className="w-1/2 p-16 flex justify-center items-center relative overflow-hidden">
-            {/* Imagen de fondo con blur */}
-            <div
-              className="absolute inset-0 bg-center bg-cover blur-md opacity-90"
-              style={{ backgroundImage: "url('/assets/poster-MPV.png')" }}
-            ></div>
+          <div className="w-1/2 rojo p-16 flex flex-col justify-center items-center">
+            <h3 className="poppins clarito text-3xl text-center mb-8">
+              Nosotros organizamos las fiestas
+            </h3>
+            <h3 className="poppins clarito text-4xl text-center mb-12">
+              ¡Ahora es tu turno, Participa!
+            </h3>
 
-            {/* Imagen principal */}
+            <button className="w-[240px] mb-8 flex justify-center items-center py-[8px] bg-[#027a76] rounded-full border-3 text-[#ddefe6] border-[#ddefe6] text#ddefe6] hover:bg-[#e75a59] transition-transform duration-300 hover:-translate-y-[2px] cursor-pointer">
+              ¡ENVÍA TUS MEJORES FOTOS!
+            </button>
+
+            <button className="w-[240px] flex justify-center items-center py-[8px] bg-[#027a76] rounded-full border-3 text-[#ddefe6] border-[#ddefe6] text#ddefe6] hover:bg-[#e75a59] transition-transform duration-300 hover:-translate-y-[2px] cursor-pointer">
+              ¡OPINA Y MEJORA EL BARRIO!
+            </button>
+          </div>
+          <div className="w-1/2 p-16 flex justify-center items-center">
             <img
-              className="w-[350px] transition-transform shadow-md duration-300 hover:-translate-y-[2px] relative z-10"
+              className=" w-[350px] transition-transform shadow-[0_3px_3px_rgba(0,0,0,0.35)] duration-300 hover:-translate-y-[4px]"
               src="/assets/poster-MPV.png"
               alt="Logo"
             />
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-start items-center w-screen p-16 ">
+      <div
+        id="concurso"
+        className="flex flex-col justify-start items-center w-screen p-16 "
+      >
         <h2 className="oswald clarito text-8xl text-center mb-16">
           CONCURSO DE FOTOGRAFÍA
         </h2>

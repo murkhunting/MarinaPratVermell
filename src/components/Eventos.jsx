@@ -2,7 +2,7 @@ import React from "react";
 
 const eventosData = [
   {
-    src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
+    src: "https://images.pexels.com/photos/6340688/pexels-photo-6340688.jpeg",
     alt: "concurso",
     evento: "CONVOCATORIA ABIERTA",
     direccion: "Comisión de la Fiesta Mayor 2026",
@@ -10,7 +10,7 @@ const eventosData = [
     hora: "Apertura a 10:00",
   },
   {
-    src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
+    src: "https://images.pexels.com/photos/8117471/pexels-photo-8117471.jpeg",
     alt: "concurso",
     evento: "RAÍCES Y HORIZONTES",
     direccion: "Taller de Visión Comunitaria",
@@ -18,7 +18,7 @@ const eventosData = [
     hora: "De 16:00 a 19:30",
   },
   {
-    src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
+    src: "https://www.espectalium.com/wp-content/uploads/2025/03/fiesta-pueblo.jpg",
     alt: "concurso",
     evento: "DEL SUEÑO A LA REALIDAD",
     direccion: "Jornadas de Planificación Festiva",

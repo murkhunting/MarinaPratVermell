@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 
 const images = [
-  "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
-  "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg",
-  "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg",
+  "/assets/1.jpeg",
+  "/assets/2.jpeg",
+  "/assets/3.jpeg",
+  "/assets/4.jpeg",
+  "/assets/5.webp",
+  "/assets/6.webp",
+  "/assets/7.webp",
 ];
 
 const Carousel = () => {

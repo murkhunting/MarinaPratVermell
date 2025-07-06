@@ -2,37 +2,37 @@ import React from "react";
 
 const fotosData = [
   {
-    src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
+    src: "https://www.totbarcelona.cat/app/uploads/sites/11/2024/09/grup-de-diables-llancant-guspires-amb-1024x683.jpg",
     alt: "concurso",
     nombre: "Francisco Pascual Martín",
     usuario: "@frPascu",
   },
   {
-    src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
+    src: "https://www.totbarcelona.cat/app/uploads/sites/11/2024/12/correfoc-transformed-1.jpeg",
     alt: "concurso",
     nombre: "Laura Abedul Sanchez",
     usuario: "@laura.moves",
   },
   {
-    src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
+    src: "/assets/5.webp",
     alt: "concurso",
     nombre: "Marcos Alonso Sainz",
     usuario: "@urbansoul_bcn",
   },
   {
-    src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
+    src: "/assets/6.webp",
     alt: "concurso",
     nombre: "Joan García Pérez",
     usuario: "@joan.enlaonda",
   },
   {
-    src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
+    src: "/assets/7.webp",
     alt: "concurso",
     nombre: "Álvaro Anchón Rodríguez",
     usuario: "@A_anchonRo",
   },
   {
-    src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
+    src: "https://www.espectalium.com/wp-content/uploads/2025/03/fiesta-pueblo.jpg",
     alt: "concurso",
     nombre: "MArina Oriol Guzmán",
     usuario: "@verdemarina",
