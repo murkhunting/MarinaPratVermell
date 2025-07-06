@@ -91,7 +91,7 @@ const Portada = () => {
 
       {/* Contenido principal */}
       <h1
-        className={`text-[#ddefe6] mt-[-140px] mb-[30px] z-20 text-[80px] oswald transition-opacity duration-500 ${
+        className={`text-[#ddefe6] mt-[-50px] mb-[30px] z-20 text-[80px] oswald transition-opacity duration-500 ${
           activeVideo ? "opacity-10" : "opacity-100"
         }`}
       >
@@ -100,12 +100,12 @@ const Portada = () => {
 
       <div className="flex flex-row z-20 w-screen">
         <div
-          className="w-[50%] flex flex-col justify-center items-center  con-outline"
+          className="w-[50%] flex flex-col justify-center items-center con-outline"
           onMouseEnter={() => handleHover("festa")}
           onMouseLeave={handleHoverEnd}
         >
           <h2
-            className={`text-[#ddefe6] ml-8 z-20 text-[130px] oswald cursor-pointer transition-opacity duration-500 ${
+            className={`text-[#ddefe6] ml-8 z-20 text-[150px] oswald cursor-pointer transition-opacity duration-500 ${
               activeVideo === "barri" ? "opacity-10" : "opacity-100"
             }`}
           >
@@ -118,7 +118,7 @@ const Portada = () => {
           onMouseLeave={handleHoverEnd}
         >
           <h2
-            className={`text-[#ddefe6] mr-8 z-20 text-[130px] oswald cursor-pointer transition-opacity duration-500 ${
+            className={`text-[#ddefe6] mr-8 z-20 text-[150px] oswald cursor-pointer transition-opacity duration-500 ${
               activeVideo === "festa" ? "opacity-10" : "opacity-100"
             }`}
           >

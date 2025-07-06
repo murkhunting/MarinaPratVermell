@@ -9,7 +9,19 @@
 }
 
 :root{
-    font-family: Limelight, sans-serif;
+    font-family: "Oswald", sans-serif;
+}
+
+.clarito{
+    color: #ddefe6;
+}
+
+.fondo{
+    background-color: #027a76;
+}
+
+.rojo{
+    background-color: #e75a59;
 }
 
 .poppins{
