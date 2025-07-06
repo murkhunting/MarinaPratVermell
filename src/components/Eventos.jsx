@@ -4,32 +4,36 @@ const eventosData = [
   {
     src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
     alt: "concurso",
-    evento: "Francisco Pascual Martín",
-    direccion: "@frPascu",
-    fecha: "25 de Julio de 2025",
+    evento: "CONVOCATORIA ABIERTA",
+    direccion: "Comisión de la Fiesta Mayor 2026",
+    fecha: "Del 09 al 30 de Septiembre",
+    hora: "Apertura a 10:00",
   },
   {
     src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
     alt: "concurso",
-    evento: "Francisco Pascual Martín",
-    direccion: "@frPascu",
-    fecha: "21 de Agosto de 2025",
+    evento: "RAÍCES Y HORIZONTES",
+    direccion: "Taller de Visión Comunitaria",
+    fecha: "19 de Octube 2025",
+    hora: "De 16:00 a 19:30",
   },
   {
     src: "https://images.pexels.com/photos/1518419/pexels-photo-1518419.jpeg",
     alt: "concurso",
-    evento: "Francisco Pascual Martín",
-    direccion: "@frPascu",
-    fecha: "12 de Septiembre de ",
+    evento: "DEL SUEÑO A LA REALIDAD",
+    direccion: "Jornadas de Planificación Festiva",
+    fecha: "15 de Diciembre 2025",
+    hora: "De 10:30 a 14:00",
   },
 ];
 
-const EventoCard = ({ src, alt, evento, direccion, fecha }) => (
+const EventoCard = ({ src, alt, evento, direccion, fecha, hora }) => (
   <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-[31%] p-3 bg-[#ddefe6] marker shadow-md transition-transform duration-300 hover:-rotate-2">
     <img className="w-full h-[40vh]  object-cover mb-2" src={src} alt={alt} />
     <h2 className="text-2xl">{evento}</h2>
-    <h4>{direccion}</h4>
-    <h4>{fecha}</h4>
+    <h4 className="text-xl mb-2">{direccion}</h4>
+    <h4 className="text-md">{fecha}</h4>
+    <h4 className="text-md">{hora}</h4>
   </div>
 );
 

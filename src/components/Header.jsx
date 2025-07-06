@@ -11,7 +11,7 @@ const Header = () => {
         </a>
       </div>
       <nav className="hidden md:flex">
-        <ul className="flex space-x-4 text-[16px] text-[#ddefe6] oswald mt-4">
+        <ul className="flex space-x-2 text-[16px] text-[#ddefe6] oswald mt-4">
           <a href="#participa">
             <li className="w-[120px] flex justify-center items-center py-[6px] bg-[#027a76] rounded-full border-3 border-[#ddefe6] hover:bg-[#e75a59] transition-transform duration-300 hover:-translate-y-[2px]">
               EVENTOS

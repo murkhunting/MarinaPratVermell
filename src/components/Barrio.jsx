@@ -17,7 +17,7 @@ const Barrio = () => {
           su historia:
         </h3>
         <div className="flex flex-row w-full px-20 gap-8 justify-center text-[#027a76] mb-12">
-          <div className="bg-[#ddefe6] p-12 rounded-[25px] flex flex-col w-1/3 justify-center items-center poppins">
+          <div className="bg-[#ddefe6] p-12 shadow-md flex flex-col w-1/3 justify-center items-center poppins">
             <img
               className="w-[60px] mb-6"
               src="/assets/industria.png"
@@ -33,7 +33,7 @@ const Barrio = () => {
               uno de los nuevos polos residenciales de Barcelona.
             </p>
           </div>
-          <div className="bg-[#ddefe6] p-12 rounded-[25px] flex flex-col w-1/3 justify-center items-center poppins">
+          <div className="bg-[#ddefe6] p-12 shadow-md flex flex-col w-1/3 justify-center items-center poppins">
             <img
               className="w-[60px] mb-6"
               src="/assets/nombre.png"
@@ -49,7 +49,7 @@ const Barrio = () => {
               secaban las telas teñidas de rojo de las fábricas textiles.
             </p>
           </div>
-          <div className="bg-[#ddefe6] p-12 rounded-[25px] flex flex-col w-1/3 justify-center items-center poppins">
+          <div className="bg-[#ddefe6] p-12 shadow-md flex flex-col w-1/3 justify-center items-center poppins">
             <img className="w-[60px] mb-6" src="/assets/coche.png" alt="Logo" />
             <h4 className="text-2xl mb-2 font-semibold">
               La fábrica SEAT cambió el barrio para siempre

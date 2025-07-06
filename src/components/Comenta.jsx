@@ -8,10 +8,10 @@ const Comenta = () => {
         id="comenta"
         className="flex flex-col py-16 justify-start rojo items-center w-screen relative overflow-hidden"
       >
-        <h2 className="oswald clarito text-8xl text-center mb-12">
+        <h2 className="oswald clarito text-8xl text-center mb-16">
           DEJA TU COMENTARIO
         </h2>
-        <h2 className="poppins clarito text-2xl text-center mb-4">
+        <h2 className="poppins clarito text-2xl text-center mb-8">
           <b>Tu opinión</b> es lo<b> Más Importante</b>. Comenta, Opina...
           Déjanos saber que piensas.
         </h2>
