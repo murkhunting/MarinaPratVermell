@@ -1,10 +1,12 @@
+import MenuRes from "./MenuRes";
+
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full z-[100] bg-transparent py-1 px-6 flex flex-row justify-between items-start">
+    <header className="fixed top-0 left-0 w-full z-[100] bg-transparent py-1 px-2 md:px-6 flex flex-row justify-between items-start">
       <div>
         <a href="#inicio">
           <img
-            className="w-[130px] transition-transform duration-300 hover:-translate-y-[2px] filter drop-shadow-[0_3px_3px_rgba(0,0,0,0.55)]"
+            className="w-[110px] md:w-[130px] transition-transform duration-300 hover:-translate-y-[2px] filter drop-shadow-[0_3px_3px_rgba(0,0,0,0.55)]"
             src="assets/MPV_logo.png"
             alt="Logo"
           />
@@ -34,7 +36,9 @@ const Header = () => {
           </a>
         </ul>
       </nav>
-      <button className="md:hidden text-2xl">☰</button>
+      <div className="md:hidden text-2xl">
+        <MenuRes />
+      </div>
     </header>
   );
 };
