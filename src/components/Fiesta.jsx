@@ -29,9 +29,12 @@ const Fiesta = () => {
               ¡OPINA Y MEJORA EL BARRIO!
             </button>
           </div>
-          <div className="w-full md:w-1/2 p-16 flex justify-center items-center">
+          <div className="w-full md:w-1/2 p-16 flex flex-col justify-center items-center">
+            <h3 className="poppins text-[#027a76] text-2xl md:text-3xl text-center mb-4 md:mb-4">
+              Poster de participación:
+            </h3>
             <img
-              className="w-[200px] md:w-[350px] transition-transform shadow-[0_3px_3px_rgba(0,0,0,0.35)] duration-300 hover:-translate-y-[4px]"
+              className="w-[350px] transition-transform shadow-[0_3px_3px_rgba(0,0,0,0.35)] duration-300 hover:-translate-y-[4px]"
               src="/assets/poster-MPV.png"
               alt="Logo"
             />
