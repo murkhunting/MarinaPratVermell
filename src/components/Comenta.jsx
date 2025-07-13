@@ -4,18 +4,16 @@ import ScrollVelocity from "./ScrollVelocity";
 const Comenta = () => {
   return (
     <>
-      <section
-        id="comenta"
-        className="flex flex-col py-16 justify-start rojo items-center w-screen relative overflow-hidden"
-      >
-        <h2 className="oswald clarito text-8xl text-center mb-16">
+      <section className="flex flex-col py-16 px-4 md:px-0 justify-start rojo items-center w-screen relative overflow-hidden">
+        <div id="comenta" className="absolute -top-[90px]"></div>
+        <h2 className="oswald clarito text-[60px] md:text-8xl text-center mb-8 md:mb-16">
           DEJA TU COMENTARIO
         </h2>
-        <h2 className="poppins clarito text-2xl text-center mb-8">
+        <h2 className="poppins clarito text-xl md:text-2xl text-center mb-0 md:mb-8">
           <b>Tu opinión</b> es lo<b> Más Importante</b>. Comenta, Opina...
           Déjanos saber que piensas.
         </h2>
-        <form className="space-y-6 p-6 max-w-[900px] w-full mx-auto bg-transparent mt-4">
+        <form className="space-y-4 md:space-y-6 p-4 md:p-6 max-w-[900px] w-full mx-auto bg-transparent mt-4">
           {/* Fila 1: Nombre completo + Correo electrónico */}
           <div className="flex flex-col md:flex-row gap-6">
             <div className="flex flex-col w-full md:w-1/2">

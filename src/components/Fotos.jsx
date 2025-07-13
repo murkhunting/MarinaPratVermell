@@ -41,7 +41,11 @@ const fotosData = [
 
 const FotoCard = ({ src, alt, nombre, usuario }) => (
   <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-[31%] p-3 bg-[#ddefe6] marker shadow-md transition-transform duration-300 hover:-rotate-2">
-    <img className="w-full h-[40vh] object-cover mb-2" src={src} alt={alt} />
+    <img
+      className="w-full h-[30vh] md:h-[40vh] object-cover mb-2"
+      src={src}
+      alt={alt}
+    />
     <h3>{nombre}</h3>
     <h4>{usuario}</h4>
   </div>

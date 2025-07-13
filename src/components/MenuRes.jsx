@@ -31,7 +31,7 @@ const MenuRes = () => {
 
       {/* Menú lateral */}
       <div
-        className={`fixed top-20 w-40 fondo clarito p-6 transition-all duration-300 z-40 rounded-3xl border-3 border-[#ddefe6] shadow-[0_3px_3px_rgba(0,0,0,0.35) ${
+        className={`fixed top-20 w-40 fondo clarito p-6 transition-all duration-300 z-40 rounded-3xl border-3 border-[#ddefe6] shadow-[0_3px_3px_rgba(0,0,0,0.35)] ${
           abierto ? "right-2" : "-right-60"
         }`}
       >

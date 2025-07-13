@@ -7,7 +7,7 @@ const Participa = () => {
     <section className="flex flex-col justify-start items-center w-screen relative overflow-hidden">
       <div id="participa" className="absolute -top-[90px]"></div>
       <div className="flex flex-col justify-center items-center w-full py-14 fondo px-4 md:px-0">
-        <h2 className="oswald clarito text-[45px] md:text-8xl text-center mb-8 md:mb-12">
+        <h2 className="oswald clarito text-[60px] md:text-8xl text-center mb-8 md:mb-12">
           ¡EVENTOS DEL BARRIO!
         </h2>
 
@@ -18,7 +18,7 @@ const Participa = () => {
         <div className="md:px-16 px-0">
           <Eventos />
         </div>
-        <h2 className="oswald clarito text-[45px] md:text-8xl text-center mt-12 mb-8 md:my-12">
+        <h2 className="oswald clarito text-[40px] md:text-8xl text-center mt-12 mb-8 md:my-12">
           ¡ROMPE LAS BARRERAS, PARTICIPA!
         </h2>
         <h3 className="poppins clarito text-2xl md:text-3xl text-center mb-8 md:mb-12">
@@ -103,7 +103,7 @@ const Participa = () => {
               rows="4"
             ></textarea>
           </div>
-          <button className="w-[180px] flex justify-center items-center py-[8px] bg-[#e75a59] rounded-full border-3 text-[#ddefe6] border-[#ddefe6] text#ddefe6] hover:bg-[#027a76] transition-transform duration-300 hover:-translate-y-[2px] cursor-pointer">
+          <button className="w-[180px] mt-4 md:mt-0 flex justify-center items-center py-[8px] bg-[#e75a59] rounded-full border-3 text-[#ddefe6] border-[#ddefe6] text#ddefe6] hover:bg-[#027a76] transition-transform duration-300 hover:-translate-y-[2px] cursor-pointer">
             ENVÍA TU SOLICITUD
           </button>
         </form>

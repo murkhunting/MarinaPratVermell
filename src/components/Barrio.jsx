@@ -6,8 +6,8 @@ const Barrio = () => {
   return (
     <section className="flex flex-col justify-start items-center w-screen relative overflow-hidden">
       <div id="barrio" className="absolute -top-[90px]"></div>
-      <div className="flex flex-col justify-center items-center w-full py-14 rojo px-4 md:px-0">
-        <h2 className="oswald clarito text-[45px] md:text-8xl text-center mb-8 md:mb-12">
+      <div className="flex flex-col justify-center items-center w-full pt-12 pb-4 md:py-14 rojo px-4 md:px-0">
+        <h2 className="oswald clarito text-[60px] md:text-8xl text-center mb-8 md:mb-12">
           LA MARINA DEL PRAT VERMELL
         </h2>
         <h3 className="poppins clarito text-2xl md:text-3xl text-center mb-12">
@@ -61,10 +61,10 @@ const Barrio = () => {
             </p>
           </div>
         </div>
-        <h3 className="poppins clarito text-2xl md:text-3xl text-center mb-12">
+        <h3 className="poppins clarito text-2xl md:text-3xl text-center mb-4 md:mb-12">
           ¿Quieres formar parte de los <b> Datos Curiosos del Futuro</b>?
         </h3>
-        <h3 className="poppins clarito text-2xl md:text-3xl text-center mb-8">
+        <h3 className="poppins clarito text-2xl md:text-3xl text-center mb-4 md:mb-8">
           Participa, Descubre, Forma parte de la Historia...
           <b> Tú eres tu Barrio.</b>
         </h3>
