@@ -56,7 +56,7 @@ const Fiesta = () => {
           Envíanos tus mejores fotos de la Fiesta y entra en el concurso
         </h4>
         <h4 className="poppins text-xl md:text-2xl clarito mb-2 font-semibold">
-          ¡Etiquetaremos tu Instagram para que te sigan los vecions del Barrio!
+          ¡Etiquetaremos tu Instagram para que te sigan los vecinos del Barrio!
         </h4>
         <form className="space-y-6 p-4 md:p-6 max-w-[900px] w-full mx-auto bg-transparent flex flex-col items-start mt-4">
           {/* Fila 1: Nombre completo + Correo electrónico */}
