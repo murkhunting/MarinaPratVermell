@@ -35,7 +35,7 @@ const MenuRes = () => {
           abierto ? "right-2" : "-right-60"
         }`}
       >
-        <ul className="space-y-4 text-lg flex flex-col justify-center items-center">
+        <ul className="space-y-4 text-xl flex flex-col justify-center items-center">
           <li>
             <a href="#participa">EVENTOS</a>
           </li>
