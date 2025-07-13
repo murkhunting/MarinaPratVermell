@@ -29,7 +29,11 @@ const eventosData = [
 
 const EventoCard = ({ src, alt, evento, direccion, fecha, hora }) => (
   <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-[31%] p-3 bg-[#ddefe6] marker shadow-md transition-transform duration-300 hover:-rotate-2">
-    <img className="w-full h-[40vh]  object-cover mb-2" src={src} alt={alt} />
+    <img
+      className="w-full h-[30vh] md:h-[40vh]  object-cover mb-2"
+      src={src}
+      alt={alt}
+    />
     <h2 className="text-2xl">{evento}</h2>
     <h4 className="text-xl mb-2">{direccion}</h4>
     <h4 className="text-md">{fecha}</h4>

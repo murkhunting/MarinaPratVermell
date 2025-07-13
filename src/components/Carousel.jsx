@@ -23,7 +23,7 @@ const Carousel = () => {
       <img
         src={images[currentIndex]}
         alt={`Slide ${currentIndex}`}
-        className="w-full h-[90vh] object-cover transition-all duration-500"
+        className="w-full h-[70vh] md:h-[90vh] object-cover transition-all duration-500"
       />
 
       {/* Left arrow */}

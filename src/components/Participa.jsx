@@ -4,34 +4,32 @@ import Eventos from "./Eventos";
 
 const Participa = () => {
   return (
-    <section
-      id="participa"
-      className="flex flex-col justify-start items-center w-screen relative overflow-hidden"
-    >
-      <div className="flex flex-col justify-center items-center w-full py-14 fondo">
-        <h2 className="oswald clarito text-8xl text-center mb-12">
+    <section className="flex flex-col justify-start items-center w-screen relative overflow-hidden">
+      <div id="participa" className="absolute -top-[90px]"></div>
+      <div className="flex flex-col justify-center items-center w-full py-14 fondo px-4 md:px-0">
+        <h2 className="oswald clarito text-[45px] md:text-8xl text-center mb-8 md:mb-12">
           ¡EVENTOS DEL BARRIO!
         </h2>
 
-        <h3 className="poppins clarito text-3xl text-center mb-8">
+        <h3 className="poppins clarito text-2xl md:text-3xl text-center mb-8">
           Mantente al día con los <b>Próximos Eventos</b> de la
           <b> Marina del Prat Vermell</b>.
         </h3>
-        <div className="px-16">
+        <div className="md:px-16 px-0">
           <Eventos />
         </div>
-        <h2 className="oswald clarito text-8xl text-center my-12">
+        <h2 className="oswald clarito text-[45px] md:text-8xl text-center mt-12 mb-8 md:my-12">
           ¡ROMPE LAS BARRERAS, PARTICIPA!
         </h2>
-        <h3 className="poppins clarito text-3xl text-center mb-12">
+        <h3 className="poppins clarito text-2xl md:text-3xl text-center mb-8 md:mb-12">
           Un <b>Gran Barrio</b> conlleva una <b>Gran Responsabilidad</b>, por
           eso necesitamos <b>Tus ideas</b>.
         </h3>
-        <h3 className="poppins clarito text-2xl text-center">
+        <h3 className="poppins clarito text-xl md:text-2xl text-center">
           Rellena el siguiente formulario para formar parte de la Junta del
           Barrio:
         </h3>
-        <form className="space-y-6 p-6 max-w-[900px] w-full mx-auto bg-transparent mt-4">
+        <form className=" p-4 space-y-2 md:space-y-6 md:p-6 max-w-[900px] w-full mx-auto bg-transparent mt-4">
           {/* Fila 1: Nombre completo + Correo electrónico */}
           <div className="flex flex-col md:flex-row gap-6">
             <div className="flex flex-col w-full md:w-1/2">

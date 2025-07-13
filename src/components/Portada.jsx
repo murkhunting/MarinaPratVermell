@@ -89,7 +89,7 @@ const Portada = () => {
 
       {/* Título */}
       <h1
-        className={`text-[#ddefe6] md:mt-[-50px] mb-4 md:mb-8 z-20 text-[50px] md:text-[80px] oswald transition-opacity duration-500 text-center px-4 ${
+        className={`text-[#ddefe6] mt-[20px] md:mt-[-50px] mb-4 md:mb-8 z-20 text-[50px] md:text-[80px] oswald transition-opacity duration-500 text-center px-4 ${
           activeVideo ? "opacity-10" : "opacity-100"
         }`}
       >
